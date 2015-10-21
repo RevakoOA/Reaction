@@ -1,4 +1,4 @@
-package com.reaction_test.just_me.reaction;
+package com.reaction_test.just_me.reaction.GameBoard;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -10,7 +10,7 @@ import android.util.Log;
 import java.util.Arrays;
 
 /**
- * Created by just_me on 20.10.15.
+ * Controller for controlled runner.
  */
 public class RotateReader implements SensorEventListener{
 

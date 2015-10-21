@@ -1,4 +1,4 @@
-package com.reaction_test.just_me.reaction;
+package com.reaction_test.just_me.reaction.GameBoard;
 
 /**
  * Created by just_me on 20.10.15.

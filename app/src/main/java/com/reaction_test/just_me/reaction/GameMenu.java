@@ -9,6 +9,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.reaction_test.just_me.reaction.GameBoard.GameTest;
+import com.reaction_test.just_me.reaction.Settings.Settings;
+import com.reaction_test.just_me.reaction.Settings.SettingsMenu;
+
 /**
  * Created by just_me on 20.10.15.
  */
@@ -22,6 +26,7 @@ public class GameMenu extends Activity {
         setContentView(R.layout.game_menu);
 
         TypefaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/Curely.ttf");
+        Settings.NewSetting(3, false, 5, 4);
         setActions();
         registerListener();
         Log.d("TAG", "Game Menu started)");
@@ -37,6 +42,10 @@ public class GameMenu extends Activity {
                 }
                 if (position == 1){
                     finish();
+                }
+                if (position == 2){
+                    Intent intent = new Intent(GameMenu.this, SettingsMenu.class);
+                    startActivity(intent);
                 }
             }
         });

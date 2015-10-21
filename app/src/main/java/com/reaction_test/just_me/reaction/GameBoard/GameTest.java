@@ -1,4 +1,4 @@
-package com.reaction_test.just_me.reaction;
+package com.reaction_test.just_me.reaction.GameBoard;
 
 /**
  * Created by just_me on 20.10.15.
@@ -12,6 +12,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+
+import com.reaction_test.just_me.reaction.GameMenu;
 
 public class GameTest extends Activity implements Runnable{
 

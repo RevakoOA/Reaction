@@ -10,7 +10,7 @@
         android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
 
         <activity
-            android:name=".GameTest"
+            android:name=".GameBoard.GameTest"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
@@ -22,9 +22,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Game"
+            android:name=".Settings.SettingsMenu"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_game"
             android:theme="@style/FullscreenTheme" >
         </activity>
         <activity android:name=".GameMenu"
